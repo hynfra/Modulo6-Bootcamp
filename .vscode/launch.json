@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TvShowsApplication<tv_shows>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "sust.tv_shows.TvShowsApplication",
+            "projectName": "tv_shows",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ElMuroApplication<el_muro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "sust.el_muro.ElMuroApplication",
+            "projectName": "el_muro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ClimaApplication<clima>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "sust.clima.ClimaApplication",
+            "projectName": "clima",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
